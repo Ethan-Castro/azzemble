@@ -668,7 +668,7 @@ body.light-theme{
 
 .blog-post-data img{
     width: 100%;
-    height: 100%;
+    height: 100rem;
     object-fit: scale-down;    
     object-position: center 10%;
 }
