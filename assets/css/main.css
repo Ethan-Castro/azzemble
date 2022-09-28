@@ -647,7 +647,7 @@ body.light-theme{
   
 /* Blog post */
 .blog-post{
-    padding-bottom: 0rem;
+    padding-bottom: 5rem;
 }
 
 .blog-post-data{
@@ -668,7 +668,7 @@ body.light-theme{
 
 .blog-post-data img{
     width: 100%;
-    height: var(--item-min-height-sm);
+    height: 100%;
     object-fit: cover;
     object-position: center 10%;
 }
