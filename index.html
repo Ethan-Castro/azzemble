@@ -1,146 +1,96 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Azzemble</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsFlash | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<body class="w3-light-grey">
+<body>
+    <!-- Header -->
+<header class="header">
+    <nav class="navbar container">
 
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
+    <a href="./index.html"></a>
+    <h2 class="logo">Azzemble</h2>
 
-<!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>Ethan's Blog</b></h1>
-  <p>Welcome to the blog of <span class="w3-tag">a random Gen Z'er</span></p>
-</header>
-
-<!-- Grid -->
-<div class="w3-row">
-
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="https://miro.medium.com/fit/c/179/179/1*OeMnHCPejsVKaBwXRhwPzA.jpeg" alt="Roller Coaster" style="width:40%">
-    <div class="w3-container">
-      <h3><b>Potential Energy</b></h3>
-      <h5>Still, but not Idle, <span class="w3-opacity">August 31, 2022</span></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>I am at a very weird point in my life [or Gap Year at least]. Many things are seemingly going well, and I have many opportunities afforded to me, but nothing is happening.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-  <img src="https://miro.medium.com/fit/c/179/179/1*HGFy5tswYSFRxHKViylFBQ.png" alt="College" style="width:40%">
-    <div class="w3-container">
-      <h3><b>Good Luck with your Freshman Year</b></h3>
-      <h5>Focus & Fun, <span class="w3-opacity">August 29, 2022</span></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>
-        Many of you reading this are now a freshman in college. To that, I say Congratulations. Although everyone seemingly goes to college right after high school(except me), it is something to be commended. I am just writing this brief little thing to remind you guys to stay [at least somewhat] true to the person you are and remember your morals.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- END BLOG ENTRIES -->
-</div>
-
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-  <img src="https://d1fdloi71mui9q.cloudfront.net/xjnAho44QeqpQHKITgkr_1Y6uXV1OY53Z9YQq" style="width:50%">
-    <div class="w3-container w3-white">
-      <h4><b>Ethan Castro</b></h4>
-      <p>Hey everyone, I'm Ethan. After some rather unfavorable college admissions results, I decided to take a gap year and pivot career paths. I will be working on several projects (one of which you are reading right now). I hope I can provide as much value to you as you are providing me by simply visit my blog. Have an awesome day. </p>
-    </div>
-  </div><hr>
-  
-  <!-- Posts -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>My Fav Posts</h4>
-    </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="https://miro.medium.com/fit/c/179/179/1*TPYBuDVFEeeQ5FVJSOchYQ@2x.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Passion Pivot</span><br>
-        <span>Dedicate your life to your passion or dedicate your life to finding it.</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="https://miro.medium.com/fit/c/179/179/1*EGSg9SP_bZKxq1Kspz0fjg.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Working Out is Overrated</span><br>
-        <span>I regret working out. *Clickbait*</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="https://miro.medium.com/fit/c/179/179/1*5faSVDdu4iV-oMBpcS5CWw.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Starting Something New</span><br>
-        <span>When starting something new, sometimes you feel like a complete idiot, worthless, weak, incapable, and whatever else.</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="https://miro.medium.com/fit/c/179/179/1*HTGSVY1181smVKpvVTHlFA.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Insecurities you can Control</span><br>
-        <span>Don't rob the world of your self.</span>
-      </li>  
+    </a>
+    
+<div class="menu">
+    <ul class="list">
+        <li class="list-item">
+            <a href="" class="list-link current">Home</a>
+        </li>
+        <li class="list-item">
+            <a href="" class="list-link">Categories</a>
+        </li>
+        <li class="list-item">
+            <a href="" class="list-link">Reviews</a>
+        </li>
+        <li class="list-item">
+            <a href="" class="list-link">News</a>
+        </li> 
+         <li class="list-item">
+            <a href="" class="list-link">Membership</a>
+        </li> 
+        <li class="list-item">
+            <a href="" class="list-link">Contact</a>
+        </li>
+        <li class="list-item screen-lg-hidden ">
+            <a href="" class="list-link">Sign In</a>
+        </li>
+        <li class="list-item screen-lg-hidden">
+            <a href="" class="list-link">Sign Up</a>
+        </li>
     </ul>
-  </div>
-  <hr> 
- 
-  <!-- Labels / tags -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Tags</h4>
-    </div>
-    <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Gap Year</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">College</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ethan</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Advice</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Working Out</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Perspective</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Personal Growth</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Updates</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Friends</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Other</span>
-    </p>
-    </div>
-  </div>
-  
-<!-- END Introduction Menu -->
 </div>
+<div class="list list-right">
+    <button class="btn place-items-center" id="theme-toggle-btn">
+        <i class="ri-sun-line sun-icon"></i>        
+        <i class="ri-moon-line moon-icon"></i>
+    </button>
 
-<!-- END GRID -->
-</div><br>
+    <button class="btn place-items-center" id="search-icon">
+        <i class="ri-search-line"></i>        
+    </button>
+   
+    <button class="btn place-items-center screen-lg-hidden menu-togglt-icon" id="menu-toggle-icon">
+        <i class="ri-menu-3-line open-menu-icon"></i>        
+        <i class="ri-close-line close-menu-icon"></i>    
+    </button>
 
-<!-- END w3-content -->
+    <a href="#" class="list-link screen-sm-hidden">Sign In</a>
+    <a href="#" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
+        <span>Sign In</span>
+    </a>
+
 </div>
+    </nav>
+</header>
+    <!-- Search -->
 
-<!-- Footer -->
+    <!-- Featured articles -->
+    
+    <!-- Quick read -->
 
-</footer>
+    <!-- Older posts -->
+    
+    <!-- Popular tags -->
 
+    <!-- Newsletter -->
+    
+    <!-- Footer -->
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
