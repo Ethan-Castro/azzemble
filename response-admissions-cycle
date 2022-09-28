@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azzemble | Post</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container" id="navbar">
+            <a href="./index.html">
+                <h2 class="logo">Azzemble</h2>
+            </a>
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a href="#" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Become a Writer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </div>
+
+                <div class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+
+                <div class="icon-box place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </div>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+<section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">A Student’s Response to the 2022 College Admissions Cycle</h3>
+                <div class="article-data">
+                    <span>Sep 24 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span>3 min read</span>
+                </div>
+                <img src="./assets/images/1662651860536.png" 
+                     max-width:100%;
+                     max-height:100%;>
+            </div>
+            <div class="container">
+<p>
+On April 1st, I saw many of my peers distraught, heartbroken, hopeless, and spiraling down a blackhole of meaninglessness, put under the impression that the sacrifices of their last four years were in vain, and contemplating how they will be able to properly interact with their immigrant parents again.
+</p>
+<p>
+Hello! My name is Ethan, and I am a Senior at Brooklyn Technical High School in NYC.
+</p>
+<p>
+[I know you didn’t ask, but] Here’s A little about me: I have played six sports, Written & Published a Book, Hosted a Podcast, Founded and Incorporated a Youth Organization that Trained & Mentored students in temporary housing during the pandemic, 1450 SAT, four year Honor Roll, thousands of Volunteer hours, and worked/interned at six different places from cleaning toilets at Catering Halls to Think Tanks and Programming at Google.
+</p>
+<p>
+Based on my resumé and previous years, you would think I would have a good chance at an IVY. Well, not this year.
+
+
+</p>
+<p>
+My ideal University and the University I saw myself most fit was Princeton University. Of course, I knew it was a long shot, but apparently, I didn’t even have a shot, to begin with.
+</p>
+<p>
+My mindset was IVY or bust. So on IVY Day (March 31st), I was ready, I was confident, and I was excited. “At 7 o’clock, I will find out where I will spend my next four years”.
+</p>
+<p>
+7:00 pm — I sit down in my living room and open my college decisions.
+</p>
+<p>
+7:01 pm — Yale: “I am genuinely sorry….” At least they were genuinely sorry
+</p>
+<p>
+7:02 pm — Harvard: “I am very sorry to inform you….” Alright, alright, they were very sorry.
+</p>
+<p>
+7:03 pm — UPenn: “It is with genuine regret….” Well, yea, you’re going to really regret it.
+</p>
+<p>
+7:04 pm — Princeton: “I am sorry to inform you….” Not even very sorry.
+</p>
+<p>
+Not only did I not get into my top 4 choices, but I also didn’t get into any but 2 of my 13 desired Universities. Those two schools had an acceptance rate of 42% and 43%.
+</p>
+<p>
+You would think an SAT in the top 98% percentile, a published book, LLC, podcast, six sports, and a humble 91 avg at the #2 school in NY would get me into my school with an acceptance rate of at least 34%… it didn’t.
+</p>
+<p>
+So what did these colleges even want?
+</p>
+<p>
+This year has been an insane year for college admissions.
+</p>
+<p>
+Acceptance Rates are at an all-time low.
+<br>
+<ul>
+  <li>Harvard | 3.19%</li>
+  <li>Columbia | 3.7%</li>
+  <li>Yale | 4.67%</li>
+  <li>NYU | 12.2%</li>
+</ul>
+</p>
+<p>
+Three IVY League Universities didn’t even share their statistics to mask how severe the situation was.
+</p>
+<p>
+The pandemic was the catalyst for a strange Admissions Cycle. Remote learning ruptured many students’ academic prowess & ambitions, test-taking was now optional, and many students took a gap year to escape a year of remote torture that you had to pay for this time.
+</p>
+<p>
+I could not just stay quiet during these tumultuous times for students, parents, teachers, and admissions officers. Although I have internalized the cliché saying “you’ll do great wherever you go”, a part of me also seeks an answer to why I was not ‘good enough’ to be admitted.
+</p>
+<p>
+But what is there to say? Tell Universities to accept 5000 more students? What problem is there for Universities to fix? Tell every high school student to start a Fortune 500 company?
+</p>
+<p>
+To be entirely honest, I do not know the exact answer. Nevertheless, I wanted to share a few things to bring us closer to the answer. I also wanted to have this act as a means to truly convey to parents how difficult this year was for students and for them to be proud of their child regardless of the result, to show students that they are not the lone victim of this year’s insane admissions results, motivate these same students to keep going, and not allow Universities to go about their ‘little lives’ without hearing anything from the Students that fell victim to this admissions crisis.
+</p>
+<p>
+Well, I am not a college consultant, so my goal isn’t to receive the answer so I can hack the system, but rather as an answer to why I wasn’t even waitlisted, as an answer to why students who prepped for the SAT multiple days a week, to the students pulling all nighters to study for their math tests since they were 14, to the students who had to balance work and school trying to contribute to their household while maintaining a 95 average, to the parents who put all of their efforts into making sure their kid was studying for hours and now seeing them behind maturity and socially wise while not even reaping any rewards from their sacrifices.
+</p>
+<p>
+<h3> My message to the students that didn’t get what they aimed for: </h3>
+Things may not have gone as planned, but who are you to say that you are wise enough to know what is best for you in the grand scheme. Everything will work out. There are pros and cons to everything. Some things may not make sense, but stay faithful. My heart goes out to all of you guys that did not get what you deserved. Your efforts over the last four were not unseen, not vain, and they will be rewarded soon. Everything you’ve done has made you who you are. Be grateful that you’ve programmed yourself to have a strong work ethic at such a young age.
+</p>
+<p>
+<h3> My message to the parents of those students: </h3>
+Over the past four (or even fourteen) years, none of the time, money, or effort you put into your child’s education over the past four (or even fourteen) years went to waste. They couldn’t have become the person they’ve become without all of those classes, tutors, camps, conferences, and events you helped them with. This year has been an insane year for every student, it is not just your child. Be proud of them regardless of whether some random adults inside a university room say yes or no, based on a piece of paper they submitted. Do not believe that people could accurately judge your child based on a single Test Score, Essay, Interview, and Resumé. If your child really is the ‘stuff’, it doesn’t matter if the school they get into has a 5% or 50% acceptance rate. You did your job & you did it well. Your child is an amazing student & more importantly, an amazing person, so don’t worry too much.
+</p>
+<p>
+<h3> My message to Admissions Officers: </h3>
+I know this year was hard for students and parents and for you guys. How are you supposed to determine whether you should take the 1450 SAT with a 95 GPA or the 1440 SAT with a 96 GPA? If more students apply then of course the acceptance rate is going to be lower. I know you guys didn’t just close your eyes, grab the closest paper and admit them. I have little doubt about the efficacy of your admissions strategy. At the same time, you guys have risen to a level of prestige that makes you a staple in society. (I hate using this quote but I am going to use it) As spiderman once said, “With great power comes great responsibility”. Many of these students that were rejected made your University the Center of their Universe, so to not get admitted ruptured everything their life orbited around. I think it is only right that you guys use the brainpower that you have to address this issue. Obviously, according to you guys, I am not ‘smart’ enough to solve this issue, so I will leave that up to you. (Suggestions: make online certifications more known and accessible. Offer partnerships with other Universities also to limit second-year transfer applications… if you want more suggestions, admit me as a student consultant, since I couldn’t be admitted as a student.)
+</p>
+<p>
+Do the Philosophy majors at Harvard have a quote from Marcus Aurelius on how to handle this seeming defeat?
+<br><br>
+Do the Math Majors at MIT have a success-guaranteed formula for these students?
+<br><br>
+Do the Creative Writing students at Yale have a Quatrain that would shift the mindset of these students?
+<br><br>
+Do the Business Majors at Wharton have a slideshow presentation on what these students should’ve done and what they should do from here on out?
+<br><br>
+Do the students at NYU Tisch have a play they can perform that would ignite a sense of motivation in these students?
+<br><br>
+Can the undergrads at Princeton use their Research privileges to conduct a study on how to iterate the college process?
+<br><br>
+If you cannot fix this issue, can you at least address it?
+
+
+</p>
+         
+          
+              
+            
+               
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/Screen Shot 2022-09-16 at 8.15.25 AM.png" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">Ethan Castro</h3>
+                        <p>Some random dude who is somehow having an effective gap year.</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Azzemble</h2>
+                </a>
+                <p class="company-description">Working on creating my own blog site, pivoting my writing from other platforms to this one, then scaling.
+End goal: Assemble the greatest minds of Gen Z to help LiBerate (Lift up and Build upon each other).</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2022 Azzemble. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
