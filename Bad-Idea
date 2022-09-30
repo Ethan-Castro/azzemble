@@ -1,0 +1,354 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azzemble | Post</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Z.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container" id="navbar">
+            <a href="./index.html">
+                <h2 class="logo">Azzemble</h2>
+            </a>
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a href="#" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Become a Writer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </div>
+
+                <div class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+
+                <div class="icon-box place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </div>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Was the Gap Year a Bad Idea? | 1 Month</h3>
+                <div class="article-data">
+                    <span>Sep 24 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span>3 min read</span>
+                </div>
+                <img src="./assets/images/stressed.jpeg" 
+                     max-width:100%;
+                     max-height:100%;>
+            </div>
+            <div class="container">
+            <h4>Was it a good idea to venture into an entirely new field, with no oversight/guidance/prior knowledge/backup/clear plan, while delaying your life a year?
+</h4>
+<p>
+The only friend I see is my good friend Hazem, once every other week, and maybe two others that commute to college from home once a month.
+</p>
+<p>
+You may be thinking:
+</p>
+<p>
+Damn, this dude is a loser.
+</p>
+<p>
+or, Damn, this dude seems lonely.
+</p>
+<p>
+I can confidently say I do not feel lonely anymore… I cannot speak on my loser status at this current time.
+</p>
+<p>
+Let me walk you through my usual schedule:
+</p>
+<p>
+<ul>
+<li>5 am | Wakeup </li>
+<li>5:30 am | Go to Starbucks when they open </li>
+<li>5:30–40 am | Chat with the Baristas who have become my friends </li>
+<li>5:40 am–12:30 pm | Deep Work Session: Programming Project or Learning </li>
+<li>12:30 pm -2:30 pm | Gym </li>
+<li>2:30–6 | Finish what I was working on earlier or Start a new course/project for the next morning’s deep work session </li>
+<li>6–8 | Jiu Jitsu or continue previous </li>
+<li>8–10:30 | Chill with fam</li>
+<li>10:30 | Sleep, then restart </li>
+</ul>
+</p>
+<p>
+It’s rare for my schedule to deviate from that.
+</p>
+<p>
+Yes, it’s objectively monotonous, boring, and lacking of anything fun, but it does not feel that way.
+</p>
+<p>
+I’ve grown to love it.
+</p>
+<p>
+What choice do I have other than to love it?
+</p>
+<p>
+To love seeing foreign concepts become native within the same day.
+</p>
+<p>
+To love the feeling of annoyance and anger that nothing is working ->, realizing the worse I feel at the moment of confusion, the more satisfactory grasping it will feel later ->, experiencing that joyous feeling of understanding -> learning to love that mental resistance of immersing myself in the unknown.
+</p>
+<p>
+To love writing on my silly medium account and getting little hearts on my Instagram story.
+</p>
+<p>
+To love seeing progress in the mirror.
+</p>
+<p>
+To love submitting the same guy that made me almost pass out a few weeks ago.
+</p>
+<p>
+To love that my friends behind the Starbucks counter make my drink without me scanning or even saying what I want.
+</p>
+<p>
+I realized the only way not to hate it is to love it.
+</p>
+<p>
+Imagine Sisyphus happy.
+</p>
+<p>
+Luckily, it doesn’t roll back down once I push the boulder up. It’s continuous progress; all I have to do is push.
+</p>
+<p>
+All I have to do is focus, work, learn, and somehow I feel more intelligent and more effective; my chances of getting into an amazing college increase, and my future career earnings/options grow exponentially.
+</p>
+<p>
+The progress is so apparent (to me) that it’s almost as if I am watching myself from an outsider’s perspective.
+</p>
+<p>
+It’s exhilarating to see this kid go from thinking he was going to get into an Ivy League College -> to barely getting into any colleges -> to having no clear path -> choosing to take a gap year -> to now.
+</p>
+<p>
+It feels like a long time, but if I think about it logically for half a second, I realize this is all happening at the speed of light.
+</p>
+<p>
+I will not share everything. I will save it and spread it across a few pieces.
+</p>
+<p>
+In objective + universal metrics, I am a year behind (pushing back college), but I am light years ahead of where I thought I would’ve at 20.
+</p>
+<p>
+Was this a risky decision? Yes.
+</p>
+<p>
+Is this still risky? Yes.
+</p>
+<p>
+Don’t worry. I am still very conscious of the situation.
+</p>
+<p>
+Thank you to everyone who likes the stories of my articles and “Have a great day” stories.
+</p>
+<p>
+Thank you to those who message me about my pieces.
+</p>
+<p>
+Thank you to those who like my coding progress updates.
+</p>
+<p>
+Thank you to those who view my story.
+</p>
+<p>
+Thank you to those who send me resources they think would help me.
+</p>
+<p>
+Thank you to those who allow me to be on my journey without constantly berating me with questions intended to make me feel lesser than for taking this route.
+</p>
+<p>
+Thank you to everyone who doesn’t know what I am doing (or maybe disagrees with it) but still encourages me.
+</p>
+<p>
+Thank you to everyone.
+</p>
+          
+              
+            
+               
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/Screen Shot 2022-09-16 at 8.15.25 AM.png" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">Ethan Castro</h3>
+                        <p>Some random dude who is somehow having an effective gap year.</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Azzemble</h2>
+                </a>
+                <p class="company-description">Working on creating my own blog site, pivoting my writing from other platforms to this one, then scaling.
+End goal: Assemble the greatest minds of Gen Z to help LiBerate (Lift up and Build upon each other).</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/ethan.a.castro/" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://twitter.com/EthanCastr" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2022 Azzemble. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
