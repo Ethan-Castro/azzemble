@@ -1,0 +1,290 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azzemble | Post</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Z.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container" id="navbar">
+            <a href="./index.html">
+                <h2 class="logo">Azzemble</h2>
+            </a>
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    
+                    <li class="list-item">
+                        <a href="#" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Become a Writer</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </div>
+
+                <div class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </div>
+
+                <div class="icon-box place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </div>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Falling in Love with Learning</h3>
+                <div class="article-data">
+                    <span>Sep 24 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span>3 min read</span>
+                </div>
+                <img src="./assets/images/falling.png" 
+                     max-width:100%;
+                     max-height:100%;>
+            </div>
+            <div class="container">
+<p>
+Today while I was cleaning out the Adidas backpack with the broken buckle that I used to use every day for school, I was injected with a sense of rage and sadness.
+
+</p>
+<p>
+I have fallen in love with learning. I jump for joy when my code works after having resisted punching my computer for being slow for the last hour. I get an unhealthily high dopamine hit when I update my little linktree on my new project. I feel accomplished when I understand how something that was once foreign works. The more I learn, the more I want to learn. The more things work, the more I want to work.
+
+</p>
+<p>
+I was once like this when I was very young, and that love for learning peaked in about fourth grade and carried me literally to the end of high school.
+
+</p>
+<p>
+Sometimes I have [truthful] intrusive thoughts that replay over and over…
+</p>
+<p>
+<i>If only I had done my HOMEWORK ON TIME, I would’ve already been in the <insert curse of your choice> college I wanted, instead of going to Starbucks at 6:30 am every morning and having to learn entirely new subjects.
+</i>
+</p>
+<p>
+<i>If only I cared when it mattered, I wouldn’t be in this position where I question everything about myself and my value.
+</i>
+</p>
+<p>
+Today I was cleaning out my backpack, and I saw
+</p>
+<p>
+<ul>
+<li>A Calc test that said, “Come to tutoring, this is the third test you messed up.”</li>
+<li>An English assignment that I wrote in the worst penmanship that someone could still find somewhat legible</li>
+<li>A crumbled stats cheat sheet that literally had everything I needed in that class</li>
+</ul>
+</p>
+<p>
+For a split second, I gave myself permission to be regretful and frustrated at Ethan from 6 months ago. Though, I’ve come to realize you must learn to consciously choose to think through a logical lens rather than an emotional one because sometimes the only emotions that present themself are toxic ones.
+
+</p>
+<p>
+After draining the flood of emotions, I realized something;
+
+
+</p>
+<p>
+<i>I LOVE LEARNING AGAIN.</i>
+</p>
+<p>
+When my friends text me all their homework or assignments, I respond with, “That’s so fire.” I don’t think they realize I’d kill to have homework right now. To have someone else literally tell me what to do, me do it, hand it to them, they tell me how I did, and all of this for me to learn a subject better and make more money down the line.
+</p>
+<p>
+Without this doggone gap year, I wouldn’t have fallen in love with learning.
+</p>
+<p>
+I guess I could say <i>thank you</i> to my (6 months ago) younger self for having his priorities wrong and being lazy.
+</p>
+<p>
+<i>I promise I will be the happiest student on the campus of whatever college decides to take a chance on me.
+
+</i>
+</p>
+
+              
+            
+               
+
+                <div class="author d-grid">
+                    <div class="author-image-box">
+                        <img src="./assets/images/Screen Shot 2022-09-16 at 8.15.25 AM.png" alt="" class="article-image">
+                    </div>
+                    <div class="author-about">
+                        <h3 class="author-name">Ethan Castro</h3>
+                        <p>Some random dude who is somehow having an effective gap year.</p>
+                        <ul class="list social-media">
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Azzemble</h2>
+                </a>
+                <p class="company-description">Working on creating my own blog site, pivoting my writing from other platforms to this one, then scaling.
+End goal: Assemble the greatest minds of Gen Z to help LiBerate (Lift up and Build upon each other).</p>
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/ethan.a.castro/" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://twitter.com/EthanCastr" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+                <span class="copyright-notice">&copy;2022 Azzemble. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Travel</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Food</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Technology</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Health</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Nature</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Fitness</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Tags</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
