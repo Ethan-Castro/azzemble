@@ -393,7 +393,7 @@ body.light-theme{
 .article-data-spacer{
     width: .5rem;
     height: .5rem;
-    background-color: var(--light-color-alt);
+    background-color: #ffffff;
     transform: rotate(45deg);
 }
 
