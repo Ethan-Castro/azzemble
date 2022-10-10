@@ -104,7 +104,7 @@
        <input type="password" name="pwdrepeat" placeholder="Repeat Password...">
         <button type="submit" name="submit">Sign Up</button>
       </form>
-      
+        </div>
         </section>
 
       
